@@ -50,7 +50,7 @@ def add_data(data):
 # Функция для удаления книги
 def delete(data):
     try:
-        book_id = int(input("Введите ID книги для удаления:" )).strip()
+        book_id = int(input("Введите ID книги для удаления:" ))
         for x in data:
             if x['id'] == book_id:
                 book = x
